@@ -1,0 +1,33 @@
+﻿Build started 19/7/2015 1:30:17 AM.
+     1>Project "G:\Work\MyEngine\MyEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Engine.cpp Font.cpp Input.cpp Light.cpp Mathf.cpp Mesh.cpp Sprite.cpp Vector.cpp
+         Sprite.cpp
+         Engine.cpp
+     1>g:\work\myengine\engine.cpp(294): warning C4244: 'initializing' : conversion from 'float' to 'LONG', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Vector.cpp
+         Mesh.cpp
+         Mathf.cpp
+         Light.cpp
+         Input.cpp
+         Font.cpp
+         Camera.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\Work\MyEngine\..\MyEngine\Lib\Engine.lib" dxguid.lib dinput8.lib /NOLOGO Debug\Camera.obj
+         Debug\Engine.obj
+         Debug\Font.obj
+         Debug\Input.obj
+         Debug\Light.obj
+         Debug\Mathf.obj
+         Debug\Mesh.obj
+         Debug\Sprite.obj
+         Debug\Timer.obj
+         Debug\Vector.obj
+         MyEngine.vcxproj -> G:\Work\MyEngine\.\Lib\Engine.lib
+     1>Done Building Project "G:\Work\MyEngine\MyEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.27
